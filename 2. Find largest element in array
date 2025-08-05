@@ -1,0 +1,9 @@
+arr = [10, 25, 3, 56, 42]
+
+largest = arr[0]  # Assume first element is largest
+
+for num in arr:
+    if num > largest:
+        largest = num
+
+print("Largest element is:", largest)
