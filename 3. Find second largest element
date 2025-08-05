@@ -1,0 +1,10 @@
+arr = [10, 25, 3, 56, 42]
+
+# Remove duplicates (optional, if needed)
+arr = list(set(arr))
+
+arr.sort()
+
+second_largest = arr[-2]
+
+print("Second largest element is:", second_largest)
