@@ -1,0 +1,6 @@
+arr = [1, 2, 3, 4, 5]
+
+last = arr.pop()        # Remove last element
+arr.insert(0, last)     # Insert at the beginning
+
+print("Rotated array:", arr)
